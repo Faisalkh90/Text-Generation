@@ -1,6 +1,6 @@
 # N-Gram Language Model
 
-This code builds an N-gram language model based on a text corpus and generates random sentences using the model. Specifically, it reads in a text file called 'aa1.txt' and tokenizes it using the NLTK library. It then builds N-gram models for N=2 to N=6 and stores them in a dictionary called 'ngram_models', where the keys are the values of N and the values are lists of N-grams. The code also generates a list of trigrams (N=3) and computes their frequency distribution using the Python 'collections' module. It then writes the 10 most frequent trigrams to a file called 'frequent.txt'.
+Builds an N-gram language model based on a text corpus and generates random sentences using the model. Specifically, it reads in a text file called 'aa1.txt' and tokenizes it using the NLTK library. It then builds N-gram models for N=2 to N=6 and stores them in a dictionary called 'ngram_models', where the keys are the values of N and the values are lists of N-grams. The code also generates a list of trigrams (N=3) and computes their frequency distribution using the Python 'collections' module. It then writes the 10 most frequent trigrams to a file called 'frequent.txt'.
 
 ## Requirements
 
